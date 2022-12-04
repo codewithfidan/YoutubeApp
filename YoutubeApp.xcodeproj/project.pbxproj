@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		22718127293CE9B9008144E5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22718126293CE9B9008144E5 /* Response.swift */; };
 		22718129293CEA40008144E5 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22718128293CEA40008144E5 /* Video.swift */; };
+		2271812C293D3313008144E5 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271812B293D3313008144E5 /* VideoModel.swift */; };
+		2271812E293D43B6008144E5 /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271812D293D43B6008144E5 /* VideoPreview.swift */; };
+		22718130293D4ADD008144E5 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271812F293D4ADD008144E5 /* CacheManager.swift */; };
 		227F4BB2293B96F8008FAC24 /* YoutubeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F4BB1293B96F8008FAC24 /* YoutubeAppApp.swift */; };
 		227F4BB4293B96F8008FAC24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F4BB3293B96F8008FAC24 /* ContentView.swift */; };
 		227F4BB6293B96FC008FAC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227F4BB5293B96FC008FAC24 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		22718126293CE9B9008144E5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		22718128293CEA40008144E5 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		2271812B293D3313008144E5 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		2271812D293D43B6008144E5 /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
+		2271812F293D4ADD008144E5 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		227F4BAE293B96F8008FAC24 /* YoutubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227F4BB1293B96F8008FAC24 /* YoutubeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeAppApp.swift; sourceTree = "<group>"; };
 		227F4BB3293B96F8008FAC24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +66,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		2271812A293D3251008144E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2271812B293D3313008144E5 /* VideoModel.swift */,
+				2271812D293D43B6008144E5 /* VideoPreview.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		227F4BA5293B96F8008FAC24 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,7 @@
 			children = (
 				227F4BB1293B96F8008FAC24 /* YoutubeAppApp.swift */,
 				227F4BB3293B96F8008FAC24 /* ContentView.swift */,
+				2271812A293D3251008144E5 /* ViewModels */,
 				22718125293CE983008144E5 /* Models */,
 				227F4BBF293BA41A008FAC24 /* Helpers */,
 				227F4BB5293B96FC008FAC24 /* Assets.xcassets */,
@@ -103,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				227F4BC0293BA43D008FAC24 /* Constants.swift */,
+				2271812F293D4ADD008144E5 /* CacheManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -231,9 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22718127293CE9B9008144E5 /* Response.swift in Sources */,
+				2271812C293D3313008144E5 /* VideoModel.swift in Sources */,
 				227F4BB4293B96F8008FAC24 /* ContentView.swift in Sources */,
 				227F4BB2293B96F8008FAC24 /* YoutubeAppApp.swift in Sources */,
+				22718130293D4ADD008144E5 /* CacheManager.swift in Sources */,
 				227F4BC1293BA43D008FAC24 /* Constants.swift in Sources */,
+				2271812E293D43B6008144E5 /* VideoPreview.swift in Sources */,
 				22718129293CEA40008144E5 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
