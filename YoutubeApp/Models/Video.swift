@@ -30,6 +30,14 @@ struct Video: Decodable{
         
     }
     
+    init(){
+        title = "videotitle"
+        description = "description"
+        thumbnail = "https://i.ytimg.com/vi/opfNRC9NerI/hqdefault.jpg"
+        published = Date()
+        videoId = "1234567890"
+    }
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         

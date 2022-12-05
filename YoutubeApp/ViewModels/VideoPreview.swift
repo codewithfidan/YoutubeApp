@@ -14,12 +14,12 @@ class VideoPreview: ObservableObject{
     @Published var title: String
     @Published var date: String
     
-    var videos: Video
+    var video: Video
     
     init(video: Video){
         
         // Set the video and title
-        self.videos = video
+        self.video = video
         self.title = video.title
         
         // Set the date
